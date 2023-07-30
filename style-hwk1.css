@@ -1,3 +1,13 @@
+.title {
+    font-family: "Dosis", sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
 .container {
   width: 50%;
   margin: auto;
@@ -7,7 +17,7 @@
   font-size: 100%;
   padding: 5%;
   width: 89%;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(231, 226, 227);
 }
 
 .plus{
@@ -21,14 +31,22 @@
     margin-bottom: 2%;
 }
 
+.buttonContainer{
+    margin: auto;
+    width: 50%;
+}
+
 .button {
     font-size: 100%;
     padding: 5%;
     width: 100%;
-    background-color: red;
+    background-color: rgb(154, 10, 74);
     color: #fff;
     border-radius: 4px;
-    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
 }
 
 .resultValue {
@@ -38,14 +56,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
-}
-
-.title {
-    font-family: "Dosis", sans-serif;
-    font-size: 300%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 5%;
 }

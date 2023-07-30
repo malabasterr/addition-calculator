@@ -6,3 +6,7 @@ function addValues(a, b) {
 };
 
 const result = addValues(amountOne, amountTwo);
+
+document.getElementById("result").innerHTML = result
+
+// console.log(result)
