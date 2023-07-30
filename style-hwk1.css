@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  display: grid;
+}
+
+.container {
+  width: 320px;
+  margin: auto;
+}
+
+.button,
+.textfield {
+  border-radius: 4px;
+  border: 0;
+  font-size: 14px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.button {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.textfield {
+  background-color: #e8e8e8;
+  border: 0;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.label {
+  color: #72777c;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.title,
+.resultValue {
+text-transform: uppercase;
+    border-top: 4px solid #e8e8e8;
+    font-family: "Dosis", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    border-top: 0;
+    border-bottom: 4px solid #e8e8e8;
+}
