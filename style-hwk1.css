@@ -1,64 +1,49 @@
-body{
-  height: 100%;
-  display: grid;
-}
-
 .container {
-  width: 320px;
+  width: 50%;
   margin: auto;
 }
 
-.textfield {
-  border-radius: 4px;
-  border: 0;
-  font-size: 14px;
-  padding: 1rem;
-  width: 100%;
-  background-color: #e8e8e8;
-  border: 0;
+.inputBox {
+  font-size: 100%;
+  padding: 5%;
+  width: 89%;
+  background-color: rgb(228, 228, 228);
 }
 
-.button {
-  background-color: #1e1e1e;
-  color: #fff;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 4px;
-  border: 0;
-  font-size: 14px;
-  padding: 1rem;
-  width: 100%;
-}
-
-.row {
-  margin-bottom: 1rem;
-}
-
-.label {
-  color: #72777c;
-  display: block;
-  font-size: 14px;
-  margin-bottom: 0.5rem;
-}
-
-.resultValue {
-    text-transform: uppercase;
-    border-top: 4px solid #e8e8e8;
+.plus{
     font-family: "Dosis", sans-serif;
-    font-size: 3rem;
+    font-size: 250%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.button {
+    font-size: 100%;
+    padding: 5%;
+    width: 100%;
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 5%;
+}
+
+.resultValue {
+    font-family: "Dosis", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 .title {
-    border-top: 0;
-    border-bottom: 4px solid #e8e8e8;
-    text-transform: uppercase;
-    border-top: 4px solid #e8e8e8;
     font-family: "Dosis", sans-serif;
-    font-size: 3rem;
+    font-size: 300%;
     text-align: center;
     display: flex;
     align-items: center;
