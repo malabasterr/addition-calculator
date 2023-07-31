@@ -1,12 +1,12 @@
-const amountOne = document.querySelector("#amountOne");
-const amountTwo = document.querySelector("#amountTwo");
+const amountOne = document.getElementById("amountOne");
+const amountTwo = document.getElementById("amountTwo");
+const submit = document.getElementById("submit");
+const result = document.getElementById("result");
 
 function addValues(a, b) {
-  return a + b;
-};
+  return parseInt(a.value) + parseInt(b.value);
+}
 
-const result = addValues(amountOne, amountTwo);
-
-document.getElementById("result").innerHTML = result
-
-// console.log(result)
+submit.addEventListener("click", function () {
+  result.innerText = addValues(amountOne, amountTwo);
+});

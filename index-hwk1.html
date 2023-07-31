@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Calculator</title>
+    <link rel="stylesheet" href="style-hwk1.css">
+</head>
+<body>
+    <h1 class="title">Addition Calculator</h1>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style-hwk1.css">
-    </head>
-
-    <body>
-
-        <h1 class="title">Addition calculator</h1>
-
-        <div class="container">
-        <form>
-            <input id="amountOne" class="inputBox" type="number" placeholder="Enter first number" />
-            <h2 class="plus">+</h2>
-            <input id="amountTwo" class="inputBox" type="number" placeholder="Enter second number">
-            <div class="buttonContainer">
-                <button class="button" type="submit">Submit</button>
-            </div>
-        </form>
+    <div class="container">
+        <input id="amountOne" class="inputBox" type="number" placeholder="Enter first number" />
+        <h2 class="plus">+</h2>
+        <input id="amountTwo" class="inputBox" type="number" placeholder="Enter second number">
+        <div class="buttonContainer">
+            <button id="submit">Submit</button>
         </div>
-        <h2 id="result" class="resultValue">0</h2>
+    </div>
+    <h2 id="result">0</h2>
 
-        <script src="interaction-hwk1.js"></script>
-    </body>
-
+    <script src="interaction-hwk1.js"></script>
+</body>
 </html>
